@@ -56,8 +56,8 @@ st.markdown("""
 /* Date picker selected day */
 div[data-baseweb="calendar"] [aria-selected="true"],
 div[data-baseweb="calendar"] button[aria-selected="true"] {
-    background-color: #0070FF !important;
-    color: #FFFFFF !important;
+    background-color: #E74C3C !important;
+    color: #000000 !important;
     border-radius: 50% !important;
     border: none !important;
     box-shadow: none !important;
@@ -164,11 +164,11 @@ div[data-baseweb="calendar"] button {
 div[data-baseweb="calendar"] button:hover {
     background: #EBF3FF !important;
 }
-/* Selected day — solid blue circle */
+/* Selected day — solid red circle */
 div[data-baseweb="calendar"] button[aria-selected="true"] {
-    background: #0070FF !important;
-    background-color: #0070FF !important;
-    color: #FFFFFF !important;
+    background: #E74C3C !important;
+    background-color: #E74C3C !important;
+    color: #000000 !important;
     border-radius: 50% !important;
 }
 /* Today marker (outlined circle) */
@@ -179,9 +179,9 @@ div[data-baseweb="calendar"] button[aria-current="date"] {
 }
 /* Today AND selected */
 div[data-baseweb="calendar"] button[aria-selected="true"][aria-current="date"] {
-    background: #0070FF !important;
-    color: #FFFFFF !important;
-    border: 2px solid #0070FF !important;
+    background: #E74C3C !important;
+    color: #000000 !important;
+    border: 2px solid #E74C3C !important;
 }
 /* Day-of-week headers */
 div[data-baseweb="calendar"] [role="columnheader"],
